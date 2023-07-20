@@ -2,7 +2,7 @@ from typing import Callable, Coroutine, Dict, Set
 
 import anyio
 import structlog
-from aredis import StrictRedis
+from yaaredis import StrictRedis
 
 from runnel.exceptions import Misconfigured
 from runnel.logging import init_logging

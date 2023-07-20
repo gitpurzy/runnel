@@ -6,7 +6,7 @@ from functools import lru_cache
 from typing import TYPE_CHECKING, Coroutine, Dict, List
 
 import structlog
-from aredis.exceptions import RedisError
+from yaaredis.exceptions import RedisError
 
 from runnel.constants import ExceptionPolicy, Rebalance
 from runnel.exceptions import Misconfigured

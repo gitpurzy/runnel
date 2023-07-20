@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-import aredis
+import yaaredis as aredis
 
 
 @dataclass

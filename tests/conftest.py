@@ -1,7 +1,7 @@
 import os
 from itertools import count
 
-import aredis
+import yaaredis as aredis
 import pytest
 
 from runnel import App
