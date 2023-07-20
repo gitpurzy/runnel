@@ -8,20 +8,20 @@ authors = ["Matt Westcott <m.westcott@gmail.com>"]
 license = "LGPL-3.0-only"
 
 [tool.poetry.dependencies]
-python = "^3.7"
-aredis = "^1.1.8"
-hiredis = "^1.0.1"
+python = "^3.10"
+yaaredis = "^3.0.0"
+hiredis = "^2.2.3"
 pydantic = "^1.5.1"
 typer = "^0.3.0"
 structlog = "^20.1.0"
-colorama = "^0.4.3"
+colorama = "^0.4.6"
 aiostream = "^0.4.1"
 croniter = "^0.3.34"
 pytz = "^2020.1"
-anyio = { version = "^2.0.0-beta.2", allow-prereleases = true }
+anyio = "2.2.0"
 
 # For the 'fast' bundle
-uvloop = { version = "^0.14.0", optional = true }
+uvloop = { version = "^0.17.0", optional = true }
 xxhash = { version = "^1.4.4", optional = true }
 orjson = { version = "^3.2.1", optional = true }
 lz4 = { version = "^3.1.0", optional = true }
@@ -31,14 +31,14 @@ yapf = "^0.30.0"
 isort = "^4.3.21"
 flake8 = "^3.8.3"
 faker = "^4.1.1"
-pytest = "^5.4.3"
-pytest-asyncio = "^0.14.0"
+pytest = "^7.4.0"
+pytest-asyncio = "^0.21.1"
 pytest-benchmark = "^3.2.3"
 sphinx = "^3.1.2"
 sphinx_rtd_theme = "^0.5.0"
 pytest-mock = "^3.2.0"
 freezegun = "^0.3.15"
-mypy = "^0.782"
+mypy = "^1.4.1"
 tox = "^3.19.0"
 coveralls = "^2.1.2"
 
